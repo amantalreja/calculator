@@ -9,7 +9,11 @@ function App() {
   return (
     <div className="App">
       <div className="Calculator">
-        <div className="Display"></div>
+        <div className="Display">
+          <span>
+            (0)
+          </span>0
+        </div>
         <div className="Operators">
           <button>+</button>
           <button>-</button>
@@ -17,7 +21,7 @@ function App() {
           <button>*</button>
           <button>Del</button>
         </div>
-        <div className="digits">
+        <div className="Digits">
          {digitCreater()}
          <button>.</button>
          <button>=</button>

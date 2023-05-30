@@ -27,3 +27,36 @@ justify-content:center;
   border-radius: 20px;
   box-shadow: inset;
 }
+.Display{
+  padding:16px;
+  text-align: right;
+  background-color: var(--dark);
+  color:var(--light);
+  font-size:24px;
+  font-weight: 300;
+}
+.Display span{
+  color: var(--primary);
+  font-size:15px;
+}
+button{
+  font-size:20px;
+  padding:16px;
+  margin:0px;
+  border:none;
+  transition:0.4s;
+}
+button:hover{
+  opacity :0.5;
+}
+.Operators{
+  display:flex;
+}
+.Operators button{
+ flex: 1 1 0%;
+ background-color: var(--primary);
+}
+.Digits{
+  display:flex;
+  flex-wrap:wrap;
+}
