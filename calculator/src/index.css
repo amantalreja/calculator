@@ -51,12 +51,16 @@ button:hover{
 }
 .Operators{
   display:flex;
+  flex-wrap:wrap;
 }
 .Operators button{
- flex: 1 1 0%;
+ flex: 1 1 20%;
  background-color: var(--primary);
 }
 .Digits{
   display:flex;
   flex-wrap:wrap;
+}
+.Digits button{
+  flex: 1 1 20%;
 }
